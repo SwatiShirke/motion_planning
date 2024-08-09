@@ -176,26 +176,5 @@ Don't forget to give the project a star! Thanks again!
 
 
 
-<!-- LICENSE -->
-## License
 
-Distributed under the Apache License 2.0.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Name - Shambhuraj Anil Mane - samane@wpi.edu
-
-Project Link: [https://github.com/shambhurajmane](https://github.com/shambhurajmane)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
 
