@@ -67,48 +67,6 @@ Breadth First Search algorithm performed poorly when the obstacle percentage was
 Depth First Search algorithm performed realatively consistant with the environment obstacle percentage. but as seen in 2nd case, if the graph has cycles, dfs may take time to find a path or loop forever. <br>
 Dijkstra algorithm on other hand shown a good performance in the basis of time and space. Though in grids exploration, dijkstra was little expensive than the dfs algorithm but the problem of getting lost in loop is not seen in case of dijkstra. <br>
 
-## Conclusion:
-
-<strong>BFS</strong>:<br>
-Advantages:
-
-    Optimal Solution: BFS guarantees finding the shortest path between two nodes in an unweighted graph.
-    Completeness: It is complete, ensuring it finds the solution if it exists.
-    Uniform Cost Search: Can be modified for weighted graphs using a priority queue.
-    Level-Wise Traversal: Useful for scenarios like finding the shortest path or exploring a game state.
-
-Disadvantages:
-
-    Space Complexity: Can be memory-intensive, especially for large graphs, due to the need to store all visited nodes in a queue.
-    Time Complexity: Can be slow for graphs with a large number of nodes or edges.
-
-<strong>DFS</strong>: <br>
-Advantages:
-
-    Memory-Efficient: Uses less memory as it only requires the path from the root node to the current node.
-    Time-Efficient: May be faster than BFS for graphs with many nodes or edges, with a time complexity of O(b^m), where b is the branching factor and m is the maximum graph depth.
-    Depth-First Exploration: Explores the deepest path first, useful for finding the maximum depth of a tree or graph.
-
-Disadvantages:
-
-    Completeness: Not guaranteed to find a solution, especially if there are cycles, which may lead to an infinite loop.
-    Non-Optimal Solution: May not find the shortest path in an unweighted graph, potentially finding a longer path first.
-    Local Minimum: Can get stuck in a local minimum in a weighted graph.
-
-<strong>Dijkstra's</strong>:<br>
-
-Advantages:
-
-    Optimal Solution: Dijkstra's algorithm guarantees finding the shortest path in graphs with non-negative edge weights.
-    Completeness: It is complete, finding the solution if it exists.
-    Adaptability to Different Weighted Graphs: Can handle graphs with different edge weights and still provide optimal solutions.
-
-Disadvantages:
-
-    Greedy Nature: Dijkstra's algorithm is greedy, always choosing the path that seems best at the current moment. While this usually results in the global optimum, it may not always be the case.
-    Non-Negative Weights Requirement: It requires that all edge weights be non-negative. Negative weights can lead to incorrect results.
-    Memory Complexity: Dijkstra's algorithm can be memory-intensive, especially for large graphs, due to the need to maintain a priority queue.
-
 
 
 
